@@ -21559,7 +21559,10 @@ hr.horizontal.gray-light {
 }
 
 .sidenav-header {
-  height: 4.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .sidenav-footer .card.card-background:after {
